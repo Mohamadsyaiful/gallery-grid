@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebGrid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Msa Merch Shop</h2>
+          <p class="sub-heading">Motocycle</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 500JT</h4>
+          <p class="item">Harley Glossy</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 400JT</h4>
+          <p class="item">Harley Gold</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Msa Merch</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Galllery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">⚠️</div>
+          <h3>Accelerate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id
+            eligendi exercitationem aliquam qui accusamus neque amet, et est
+            consequatur?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🚦</div>
+          <h3>Trafic Light</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            animi ab iusto repudiandae provident dolorum eos facere ad at
+            voluptates.
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">🎥</div>
+          <h3>Course online</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Architecto, quaerat. Explicabo asperiores officia eos quae?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🎬</div>
+          <h3>Film</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Architecto, quaerat. Explicabo asperiores officia eos quae?
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/h1.jpg" alt="" />
+        <img src="img/h2.jpg" alt="" />
+        <img src="img/h3.jpg" alt="" />
+        <img src="img/h4.jpg" alt="" />
+        <img src="img/h5.jpg" alt="" />
+        <img src="img/h6.jpg" alt="" />
+        <img src="img/h7.jpg" alt="" />
+        <img src="img/h8.jpg" alt="" />
+        <img src="img/h9.jpg" alt="" />
+        <img src="img/h10.jpg" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
